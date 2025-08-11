@@ -1,10 +1,11 @@
 # Mesh-Mini
 
-Mesh-Mini is a fork of the npm package MeshCommander created by [BrytonSalisbury](https://github.com/BrytonSalisbury/mesh-mini), due to the ending of support of the MeshCommander application found here - https://www.meshcommander.com/meshcommander.
-
-The code has been modified to be bundled and injected into a copy of node.exe and is accessed via your localhost in a browser. Docker images are also provided below. This solution is **much** more performant than the original MeshCommander due to running in a modern browser.
+Mesh-Mini is a fork of the npm package MeshCommander created by [BrytonSalisbury](https://github.com/BrytonSalisbury/mesh-mini), due to the ending of support of the MeshCommander application.
 
 **Note:** This repo only builds a new version of the docker container when the base image is uploaded. Refer to https://github.com/BrytonSalisbury/mesh-mini for the original source and package downloads. 
+
+# Background
+The code has been modified to be bundled and injected into a copy of node.exe and is accessed via your localhost in a browser. Docker images are also provided below. This solution is **much** more performant than the original MeshCommander due to running in a modern browser.
 
 ## Docker
 
