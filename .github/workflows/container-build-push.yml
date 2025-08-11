@@ -1,4 +1,4 @@
-name: v4 build and push
+name: Container build and push
 
 # When triggered the latest version of the container is built and pushed to docker hub and ghcr.io
 
