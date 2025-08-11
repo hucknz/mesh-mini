@@ -17,7 +17,7 @@ jobs:
       - name: Get latest version number
         id: get_version
         run: |
-          VER=$($(grep "baseimage_digest" .version | cut -d'=' -f2))
+          VER=$(grep "baseimage_digest" .version | cut -d'=' -f2)
           echo "VERSION=$VER" >> $GITHUB_ENV
 
       - name: Check out the repo
