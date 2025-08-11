@@ -17,8 +17,8 @@ jobs:
       - name: Get latest version number
         id: get_version
         run: |
-          VER=$(curl -s https://raw.githubusercontent.com/hucknz/mesh-mini/master/.version)
-          echo "baseimage_digest=$VER" >> $GITHUB_ENV
+          VER=$($(grep "baseimage_digest" .version | cut -d'=' -f2))
+          echo "VERSION=$VER" >> $GITHUB_ENV
 
       - name: Check out the repo
         id: checkout_repository
