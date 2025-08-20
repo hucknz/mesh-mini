@@ -84,4 +84,4 @@ jobs:
           webhook: ${{ secrets.DISCORD_WEBHOOK }}
           noprefix: true
           status: ${{ job.status }}
-          title: "base image check ${{ job.status }}"
+          title: "Base image check ${{ job.status }}"
