@@ -48,7 +48,7 @@ jobs:
               -H "Accept: application/vnd.github.v3+json" \
               -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
               https://api.github.com/repos/hucknz/mesh-mini/actions/workflows/container-build-push.yml/dispatches \
-              -d '{"ref":"master"}'
+              -d '{"ref":"main"}'
               echo "MODIFIED=true" >> $GITHUB_ENV
             fi
           else
