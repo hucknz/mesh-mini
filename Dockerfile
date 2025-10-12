@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1
 
-ARG NODE_VERSION=21.6.0
+ARG NODE_VERSION=lts
 FROM node:${NODE_VERSION}-alpine
 ENV NODE_ENV production
 WORKDIR /usr/src/app
